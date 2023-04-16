@@ -9,7 +9,6 @@
   </head>
 
   <body>
-    <script src="./script.js"></script>
     <div class="slide-container">
       <div class="wrapper">
         <div class="clash-card barbarian">
@@ -194,5 +193,20 @@
       <!-- end wrapper -->
     </div>
     <!-- end container -->
+    <script>
+      let div1 = document.querySelectorAll(".one-third");
+      div1 = Array.from(div1);
+
+      for (div_element of div1) {
+        div_element.style.color = "white";
+      }
+
+      let div2 = document.getElementsByClassName("clash-card__unit-stats");
+      div2[0].style.backgroundColor = "#b88f21";
+      div2[1].style.backgroundColor = "#e381cf";
+      div2[2].style.backgroundColor = "#ebaf0c";
+      div2[3].style.backgroundColor = "#4aa145";
+      div2[4].style.backgroundColor = "#4390de";
+    </script>
   </body>
 </html>
