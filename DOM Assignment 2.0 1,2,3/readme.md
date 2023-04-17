@@ -14,3 +14,22 @@ ul.append(li);
 let input = document.querySelector("input");
 input.placeholder = "Search my Project";
 ```
+
+```javascript
+// Task3 output
+let div = document.querySelectorAll(".hero-left-section");
+div = Array.from(div);
+div[0].querySelectorAll("span");
+div = div[0];
+span = div.querySelectorAll("span");
+span = Array.from(span);
+span[3].innerText = "Ineuron intelligence Pvt Ltd";
+```
+
+```javascript
+// Task5 output
+button = document.createElement("button");​
+let div = document.querySelector(".hero-right-section-btns");
+button.innerText = 'Support Me';
+div.append(button);
+```
