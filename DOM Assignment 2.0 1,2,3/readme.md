@@ -1,5 +1,7 @@
 # All JS code is written here
 
+### First assignment
+
 ```javascript
 // Task1 Output
 let ul = document.querySelectorAll("ul");
@@ -32,4 +34,12 @@ button = document.createElement("button");​
 let div = document.querySelector(".hero-right-section-btns");
 button.innerText = 'Support Me';
 div.append(button);
+```
+
+### 2nd Assignment
+
+```javascript
+// Task1 output
+let li = document.querySelector("li:nth-child(3)");
+li.innerText = "Projects";
 ```
