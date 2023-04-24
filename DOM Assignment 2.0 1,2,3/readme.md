@@ -62,3 +62,21 @@ div.forEach((purplediv) => {
   purplediv.style.backgroundColor = "lavender";
 });
 ```
+
+### Third Assignment
+
+```javascript
+// Task1
+let input = document.querySelector(".enterName");
+input.placeholder = "FSJS 2.0";
+let input2 = document.querySelector(".enterMail");
+input2.placeholder = "fsjs@ineuron.ai";
+let textArea = document.querySelectorAll("textarea");
+for (let text of textArea) {
+  text.placeholder = "Hello World";
+}
+let input3 = document.querySelector(".userName");
+input3.placeholder = "FSJS 2.0";
+let input4 = document.querySelector(".userEmail");
+input4.placeholder = "fsjs@ineuron.ai";
+```
