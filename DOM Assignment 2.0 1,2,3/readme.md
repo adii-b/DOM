@@ -43,3 +43,22 @@ div.append(button);
 let li = document.querySelector("li:nth-child(3)");
 li.innerText = "Projects";
 ```
+
+```javascript
+// Task2 output
+let div = document.querySelector(".accrodian-wrapper");
+div = document.querySelector(".accordian-wrapper");
+let div1 = document.createElement("div");
+div1.innerHTML = "<h3>Skills</h3>";
+div.append(div1);
+div1.className = "accordian";
+let p = document.createElement("p");
+p.innerText =
+  "I possess a very good command over the Full Stack development technologies like MERN which can be seen in my work at Github";
+div1.append(p);
+p.style.display = "inline";
+
+div.forEach((purplediv) => {
+  purplediv.style.backgroundColor = "lavender";
+});
+```
