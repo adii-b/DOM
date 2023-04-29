@@ -1,5 +1,4 @@
 let btn = document.querySelector(".main__form-btn");
-btn.type = "reset";
 btn.disabled = false;
 let input = document.querySelector(".main__form-input");
 input.disabled = false;
@@ -8,7 +7,8 @@ input.disabled = false;
 
 function click() {
   input.value = "Hello"; // Sets text inside input
-  btn.addEventListener("click", () => {
+  btn.addEventListener("click", (event) => {
+    event.preventDefault();
     for (const iterator of aTag) {
       iterator.style.display = "inline";
     }
